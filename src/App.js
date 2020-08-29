@@ -1,8 +1,12 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import homepage from './components/homepage.js';
-import './App.css';
+import React from "react";
+import { BrowserRouter, Route } from 'react-router-dom';
+import homepage from './pages/homepage';
+import './App.scss';
 
-class App extends Component() {
-  
-}
+const App = () => (
+    <BrowserRouter>
+        <Route exact path='/' component={homepage} />
+    </BrowserRouter>
+);
+
+export default App;
