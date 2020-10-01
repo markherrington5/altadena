@@ -101,6 +101,13 @@ h1, h2, h3, h4, h5, h6, p, li {
 
 
 @media only screen and (max-width: 768px) {
+    .row-logo {
+        div {
+            img {
+                max-width: 100%;
+            }
+        }
+    }
     .container {
       width: 100%;
     }
