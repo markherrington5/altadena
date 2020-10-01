@@ -6,14 +6,7 @@ h1, h2, h3, h4, h5, h6, p, li {
     max-width: 1400px   !important;
 }
 
-@media only screen and (max-width: 768px) {
-    html {
-        width: 100% !important;
-    }
-    .container {
-        width: 100%;
-    }
-}
+
 
 .row-logo {
     height: 8em;
@@ -55,3 +48,11 @@ h1, h2, h3, h4, h5, h6, p, li {
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .container {
+      width: 100%;
+    }
+    .address {
+        display: hidden;
+    }
+}
