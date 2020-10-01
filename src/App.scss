@@ -1,4 +1,57 @@
-div {
-    font-size: 2em;
-    color: red;
+h1, h2, h3, h4, h5, h6, p, li {
+    font-family: 'Open Sans', sans-serif;
 }
+
+.container {
+    max-width: 1400px   !important;
+}
+
+@media only screen and (max-width: 768px) {
+    html {
+        width: 100% !important;
+    }
+    .container {
+        width: 100%;
+    }
+}
+
+.row-logo {
+    height: 8em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    .col {
+        img {
+            height: 8em;
+        }
+    }
+}
+
+.row-map {
+    height: 22em;
+    background-color: #0F758F;
+    div {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .address {
+        color: white;
+        div {
+            position:absolute;
+            top:30%;    
+            left:33%;
+            width:100%;
+            h2 {
+                font-size: 2.75em;
+            }
+            ul {
+                margin: 0px 0px 0px 0px;
+                padding: 0px 0px 0px 0px;
+                list-style: none;
+                li {
+                    font-size: 1.1em;
+                }
+            }
+        }
+    }
+}
+
