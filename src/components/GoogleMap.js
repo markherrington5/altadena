@@ -10,7 +10,7 @@ class GoogleMap extends Component {
       lat: 33.409831,
       lng: -86.763793
     },
-    zoom: 15
+    zoom: 17
   };
 
   render() {

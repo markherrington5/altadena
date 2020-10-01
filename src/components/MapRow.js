@@ -3,7 +3,7 @@ import { Row, Col } from "react-bootstrap";
 import GoogleMap from './GoogleMap.js';
 
 const MapRow = props => (
-    <Row className='row-map'>
+    <Row className='info-row row-map'>
         <Col className='address' md={7}>
             <div>
                 <h2>Location</h2>
