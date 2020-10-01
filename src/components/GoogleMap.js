@@ -15,7 +15,6 @@ class GoogleMap extends Component {
 
   render() {
     return (
-      // Important! Always set the container height explicitly
       <div style={{ height: '22em', width: '100%' }}>
         <GoogleMapReact
           bootstrapURLKeys={{
