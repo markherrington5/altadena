@@ -22,6 +22,32 @@ h1, h2, h3, h4, h5, h6, p, li {
     margin-bottom: 1em;
 }
 
+.row-about {
+    color: white;
+    background-color: #06343f;
+    padding: 2em;
+    .details-box {
+        color: #06343f;
+        background-color: white;
+        padding: 1em;
+        margin-bottom: .5em;
+        p {
+            margin: 0px;
+            padding: 0px;
+        }
+    }
+    .row {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display:         flex;
+      }
+      .row > [class*='col-'] {
+           display: flex;
+           flex-direction: column;
+      }
+}
+
 .row-bio {
     .image {
         margin: 0px !important;

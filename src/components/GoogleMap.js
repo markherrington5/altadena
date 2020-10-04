@@ -14,11 +14,12 @@ class GoogleMap extends Component {
   };
 
   render() {
+
     return (
       <div style={{ height: '22em', width: '100%' }}>
         <GoogleMapReact
           bootstrapURLKeys={{
-            key: 'AIzaSyBGYr7DPVtqsuuoyqzRuB72bRUI0BbJ2Sg',
+            key: process.env.REACT_APP_GMAPS_API,
             language: 'en',
             region: 'us'
           }}
