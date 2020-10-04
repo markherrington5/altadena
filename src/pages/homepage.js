@@ -10,8 +10,8 @@ function Home() {
   return (
     <Container>
       <LogoRow />
-      <BioRow />
       <MapRow />
+      <BioRow />
       <p id='copyright'>v0.0.1 | © 2020 Mark Herrington</p>
     </Container>
   )

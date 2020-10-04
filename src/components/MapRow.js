@@ -9,7 +9,7 @@ const MapRow = props => (
                 <h2>Location</h2>
                 <ul>
                     <li>2409 Acton Road</li>
-                    <li>#XX</li>
+                    <li>#161</li>
                     <li>Vestavia Hills, AL 35243</li>
                 </ul>
             </div>
