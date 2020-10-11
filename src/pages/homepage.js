@@ -1,8 +1,8 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import LogoRow from "../components/LogoRow.js";
-import AboutRow from "../components/AboutRow.js";
-import MapRow from "../components/MapRow.js";
+import AboutCol from "../components/AboutCol.js";
+import MapCol from "../components/MapCol.js";
 import BioRow from "../components/BioRow.js";
 
 
@@ -11,8 +11,10 @@ function Home() {
   return (
     <Container>
       <LogoRow />
-      <AboutRow />
-      <MapRow />
+      <Row className='info-row'>
+        <AboutCol />
+        <MapCol />
+      </Row>
       <BioRow />
       <p id='copyright'>v0.0.1 | © 2020 Mark Herrington</p>
     </Container>
