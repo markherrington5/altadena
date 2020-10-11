@@ -22,12 +22,15 @@ h1, h2, h3, h4, h5, h6, p, li {
     margin-bottom: 1em;
 }
 
-.row-about {
+#col-about {
     color: white;
     background-color: #06343f;
     padding: 2em;
+    ul {
+        padding-left: 1.5em;
+    }
     .details-box {
-        color: #06343f;
+        color: black;
         background-color: white;
         padding: 1em;
         margin-bottom: .5em;
@@ -45,6 +48,10 @@ h1, h2, h3, h4, h5, h6, p, li {
       .row > [class*='col-'] {
            display: flex;
            flex-direction: column;
+      }
+      #insurance {
+          font-size: .8em;
+          margin-bottom: 0em;
       }
 }
 
@@ -73,20 +80,18 @@ h1, h2, h3, h4, h5, h6, p, li {
     }
 }
 
-.row-map {
-    height: 22em;
-    background-color: #0F758F;
+#col-map {
+    background-color: white;
+    margin: 0em .25em;
     div {
         padding-left: 0px;
         padding-right: 0px;
     }
     .address {
         color: white;
+        background-color: #0F758F;
         div {
-            position:absolute;
-            top:30%;    
-            left:33%;
-            width:100%;
+            padding: 50px 70px;
             h2 {
                 font-size: 2.75em;
             }

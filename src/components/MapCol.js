@@ -2,9 +2,13 @@ import React from 'react';
 import { Row, Col } from "react-bootstrap";
 import GoogleMap from './GoogleMap.js';
 
-const MapRow = props => (
-    <Row className='info-row row-map'>
-        <Col className='address' md={7}>
+const MapCol = props => (
+    <Col id='col-map'>
+        <Row className='gmap'>
+            <GoogleMap />
+        </Row>
+        <Row className='address'
+        >
             <div>
                 <h2>Location</h2>
                 <ul>
@@ -13,11 +17,8 @@ const MapRow = props => (
                     <li>Vestavia Hills, AL 35243</li>
                 </ul>
             </div>
-        </Col>
-        <Col md={5} className='gmap'>
-            <GoogleMap />
-        </Col>
-    </Row>
+        </Row>
+    </Col>
 )
 
-export default MapRow;
+export default MapCol;
