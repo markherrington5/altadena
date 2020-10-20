@@ -2,11 +2,14 @@ h1, h2, h3, h4, h5, h6, p, li {
     font-family: 'Open Sans', sans-serif;
 }
 
+a {
+    color: #0F758F  !important;
+}
+
 .container {
     max-width: 1400px   !important;
 }
 .row-logo {
-    height: 8em;
     margin-top: 1em;
     margin-bottom: 1em;
     object-fit: scale-down;
@@ -14,6 +17,17 @@ h1, h2, h3, h4, h5, h6, p, li {
         img {
             height: 8em;
             object-fit: scale-down;
+        }
+    }
+    #contact-info {
+        height: 8em;
+        p {
+            text-align: right;
+            margin: 0px;
+            vertical-align: middle;
+            &:first-of-type {
+                margin-bottom: .5em;
+            }
         }
     }
 }
@@ -144,5 +158,61 @@ h1, h2, h3, h4, h5, h6, p, li {
     }
     .address {
         display: hidden;
+    }
+}
+
+@media only screen and (max-width: 1020px) {
+    .row-logo {
+        #contact-info {
+            height: 5em;
+            p {
+                text-align: left;
+                margin: 0px;
+                vertical-align: middle;
+                &:first-of-type {
+                    margin-top: 1.5em;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 901px) {
+    .row-logo {
+        #contact-info {
+            height: 6em;
+        }
+    }
+}
+
+@media only screen and (max-width: 771px) {
+    .row-logo {
+        #contact-info {
+            height: 7em;
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .row-logo {
+        #contact-info {
+            height: 5em;
+        }
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .row-logo {
+        #contact-info {
+            height: 6em;
+        }
+    }
+}
+
+@media only screen and (max-width: 385px) {
+    .row-logo {
+        #contact-info {
+            height: 7em;
+        }
     }
 }
