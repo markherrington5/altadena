@@ -3,7 +3,7 @@ import { Col } from "react-bootstrap";
 
 const AboutCol = props => (
     <Col id='col-about'>
-        <h2>Opening late fall 2020!</h2>
+        <h2>Now open!</h2>
         <h1>Welcome to Altadena Eye Care!</h1>
         <p>Dr. Amy Herrington, with more than thirty years experience caring for her patients' ocular health, is happy to announce the opening of the Birmingham area's newest eye care practice and optical boutique near the intersection of I-459 and Acton Road in Vestavia Hills.</p>
         <ul>
@@ -13,7 +13,7 @@ const AboutCol = props => (
             <li>With twenty years of experience guiding patients through the process of selecting eyewear and lenses, our expert Jason Martin has chosen a wide range of eyewear styles at varying price-points for our collection. He can introduce you to eyeglass frames and the most accurate lenses to provide you the best visual correction in the most aesthetically pleasing styles.</li>
         </ul>
         <div className='details-box'>
-            <p>Please email or call us to schedule an appointment. We would love to answer any questions you have about our practice. Dr. Herrington will begin seeing patients for routine and specialty care in late November or early December 2020, so call us soon!</p>
+            <p>Please email or call us to schedule an appointment. We would love to answer any questions you have about our practice. We are open Monday through Friday from 8:30-5:30 for routine and specialty care.</p>
         </div>
         <p id='insurance'>We accept most major medical insurances and vision insurances VSP and Eyemed.</p>
     </Col>
