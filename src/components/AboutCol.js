@@ -15,7 +15,7 @@ const AboutCol = props => (
         <div className='details-box'>
             <p>Please email or call us to schedule an appointment. We would love to answer any questions you have about our practice. We are open Monday through Friday from 8:30-5:30 for routine and specialty care.</p>
         </div>
-        <p id='insurance'>We accept most major medical insurances and vision insurances VSP and Eyemed.</p>
+        <p id='insurance'>We accept most major insurances and vision plans, including VSP.</p>
     </Col>
 )
 
